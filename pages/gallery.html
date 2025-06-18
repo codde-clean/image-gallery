@@ -3,7 +3,368 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio Gallery - Dante Photographs</title>
+    <!-- google icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- remix icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/gallery.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="large-screen">
+        <div class="group">
+          <a href="../index.html"
+            ><img class="logo" src="../images/logo.png" alt="Logo"
+          /></a>
+          <a href="#nav-bar">
+            <i class="ri-menu-line hamburger"></i>
+          </a>
+        </div>
+        <nav id="nav-bar" class="nav-bar">
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="../index.html">Home</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="services.html">Services</a></li>
+            <li class="nav-item"><a href="gallery.html">Portfolio</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+          <a href="#"><i class="ri-close-line close-menu"></i></a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="gallery-container">
+      <h1 class="gallery-title">Our Photography Portfolio</h1>
+      <div class="gallery-intro">
+        <p>
+          Welcome to our carefully curated collection of photographic memories.
+          Each image tells a unique story, captured through our lens with
+          passion and precision. Browse through our diverse categories
+          showcasing our expertise across different photography genres.
+        </p>
+      </div>
+
+      <!-- Weddings Section -->
+      <section class="category-section">
+        <h2 class="category-title">Weddings</h2>
+        <div class="category-description">
+          <p>
+            Celebrating love stories through timeless photography. Our wedding
+            portfolio showcases intimate moments and grand celebrations, each
+            frame preserving precious memories that will last a lifetime.
+          </p>
+        </div>
+        <div class="image-grid">
+          <div class="gallery-item">
+            <img
+              src="../images/weddings/wedding1.jpg"
+              alt="Wedding Photography"
+            />
+            <div class="image-overlay">Wedding Moments</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../images/weddings/wedding2.jpg"
+              alt="Wedding Photography"
+            />
+            <div class="image-overlay">Wedding Celebration</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../images/weddings/wedding3.jpg"
+              alt="Wedding Photography"
+            />
+            <div class="image-overlay">Wedding Ceremony</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../images/weddings/wedding4.jpg"
+              alt="Wedding Photography"
+            />
+            <div class="image-overlay">Wedding Details</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Nature Section -->
+      <section class="category-section">
+        <h2 class="category-title">Nature</h2>
+        <div class="category-description">
+          <p>
+            Exploring the raw beauty of the natural world. From dramatic
+            landscapes to delicate flora, our nature photography captures the
+            essence of Earth's magnificent displays.
+          </p>
+        </div>
+        <div class="image-grid">
+          <div class="gallery-item">
+            <img src="../images/nature/nature1.jpg" alt="Nature Photography" />
+            <div class="image-overlay">Natural Beauty</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/nature/nature2.jpg" alt="Nature Photography" />
+            <div class="image-overlay">Landscapes</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/nature/nature3.jpg" alt="Nature Photography" />
+            <div class="image-overlay">Wildlife</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/nature/nature4.jpg" alt="Nature Photography" />
+            <div class="image-overlay">Natural Wonders</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/nature/nature5.jpg" alt="Nature Photography" />
+            <div class="image-overlay">Scenic Views</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Graduations Section -->
+      <section class="category-section">
+        <h2 class="category-title">Graduations</h2>
+        <div class="category-description">
+          <p>
+            Commemorating academic achievements and milestones. These images
+            capture the joy, pride, and accomplishment of graduates and their
+            families during their special day.
+          </p>
+        </div>
+        <div class="image-grid">
+          <div class="gallery-item">
+            <img
+              src="../images/graduations/graduation1.jpg"
+              alt="Graduation Photography"
+            />
+            <div class="image-overlay">Graduation Day</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../images/graduations/graduation2.jpg"
+              alt="Graduation Photography"
+            />
+            <div class="image-overlay">Academic Achievement</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../images/graduations/graduation3.jpg"
+              alt="Graduation Photography"
+            />
+            <div class="image-overlay">Celebration</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../images/graduations/graduation4.jpg"
+              alt="Graduation Photography"
+            />
+            <div class="image-overlay">Special Moments</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../images/graduations/graduation5.jpg"
+              alt="Graduation Photography"
+            />
+            <div class="image-overlay">Graduate Portraits</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Travel Section -->
+      <section class="category-section">
+        <h2 class="category-title">Travel</h2>
+        <div class="category-description">
+          <p>
+            Documenting adventures across the globe. Our travel photography
+            brings distant places closer, sharing stories of cultures,
+            landscapes, and unforgettable moments from around the world.
+          </p>
+        </div>
+        <div class="image-grid">
+          <div class="gallery-item">
+            <img src="../images/travel/travel1.jpg" alt="Travel Photography" />
+            <div class="image-overlay">Adventure</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/travel/travel2.jpg" alt="Travel Photography" />
+            <div class="image-overlay">Destinations</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/travel/travel3.jpg" alt="Travel Photography" />
+            <div class="image-overlay">Exploration</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/travel/travel4.jpg" alt="Travel Photography" />
+            <div class="image-overlay">Wanderlust</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/travel/travel5.jpg" alt="Travel Photography" />
+            <div class="image-overlay">Journey</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/travel/travel6.jpg" alt="Travel Photography" />
+            <div class="image-overlay">Travel Stories</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Studio & Photoshoot Section -->
+      <section class="category-section">
+        <h2 class="category-title">Studio & Photoshoot</h2>
+        <div class="category-description">
+          <p>
+            Professional studio photography that captures personality and style.
+            From corporate headshots to creative portraits, we bring out the
+            best in every subject.
+          </p>
+        </div>
+        <div class="image-grid">
+          <div class="gallery-item">
+            <img
+              src="../images/photoshoot/photoshoot1.jpg"
+              alt="Studio Photography"
+            />
+            <div class="image-overlay">Professional Shoots</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../images/photoshoot/photoshoot2.jpg"
+              alt="Studio Photography"
+            />
+            <div class="image-overlay">Portrait Session</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../images/photoshoot/studio1.jpg"
+              alt="Studio Photography"
+            />
+            <div class="image-overlay">Studio Magic</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../images/photoshoot/studio2.jpg"
+              alt="Studio Photography"
+            />
+            <div class="image-overlay">Professional Portraits</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../images/photoshoot/studio3.jpg"
+              alt="Studio Photography"
+            />
+            <div class="image-overlay">Studio Art</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hiking Section -->
+      <section class="category-section">
+        <h2 class="category-title">Hiking & Adventure</h2>
+        <div class="category-description">
+          <p>
+            Capturing the thrill of outdoor exploration. Our hiking and
+            adventure photography showcases the beauty of trails, peaks, and the
+            joy of outdoor living.
+          </p>
+        </div>
+        <div class="image-grid">
+          <div class="gallery-item">
+            <img src="../images/hiking/hiking1.jpg" alt="Hiking Photography" />
+            <div class="image-overlay">Trail Adventures</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/hiking/hiking2.jpg" alt="Hiking Photography" />
+            <div class="image-overlay">Mountain Views</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/hiking/hiking3.jpg" alt="Hiking Photography" />
+            <div class="image-overlay">Nature Trails</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/hiking/hiking4.jpg" alt="Hiking Photography" />
+            <div class="image-overlay">Outdoor Adventures</div>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/hiking/hiking5.jpg" alt="Hiking Photography" />
+            <div class="image-overlay">Hiking Moments</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Dante Photographs</h3>
+          <img
+            class="footer-logo"
+            src="../images/logo.png"
+            alt="Dante Photographs Logo"
+          />
+          <p>
+            Capturing life's precious moments with artistic vision and
+            professional excellence.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul>
+            <li>Wedding Photography</li>
+            <li>Event Coverage</li>
+            <li>Portrait Sessions</li>
+            <li>Nature & Landscape</li>
+            <li>Studio Photography</li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <ul class="contact-info">
+            <li>
+              <i class="ri-map-pin-line"></i> 123 Photography Street, City
+            </li>
+            <li><i class="ri-phone-line"></i> +1 (555) 123-4567</li>
+            <li><i class="ri-mail-line"></i> info@dantephotos.com</li>
+          </ul>
+          <div class="social-links">
+            <a href="#"><i class="ri-facebook-circle-line"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-x-line"></i></a>
+            <a href="#"><i class="ri-linkedin-box-line"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Dante Photographs. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/gallery-slideshow.js"></script>
+  </body>
 </html>

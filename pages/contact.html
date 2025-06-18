@@ -3,7 +3,210 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact Us - Dante Photographs</title>
+    <!-- google icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- remix icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="large-screen">
+        <div class="group">
+          <a href="../index.html"
+            ><img class="logo" src="../images/logo.png" alt="Logo"
+          /></a>
+          <a href="#nav-bar">
+            <i class="ri-menu-line hamburger"></i>
+          </a>
+        </div>
+        <nav id="nav-bar" class="nav-bar">
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="../index.html">Home</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="services.html">Services</a></li>
+            <li class="nav-item"><a href="gallery.html">Portfolio</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
+          <a href="#"><i class="ri-close-line close-menu"></i></a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="contact-container">
+      <section class="contact-hero">
+        <div class="hero-content">
+          <h1>Contact Us</h1>
+          <p>Get in Touch for Your Photography Needs</p>
+        </div>
+      </section>
+
+      <div class="contact-grid">
+        <section class="contact-info-section">
+          <h2>Get In Touch</h2>
+          <div class="contact-info-item">
+            <i class="ri-map-pin-line"></i>
+            <div>
+              <h3>Visit Us</h3>
+              <p>
+                123 Photography Street<br />
+                Cityville, ST 12345
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <i class="ri-phone-line"></i>
+            <div>
+              <h3>Call Us</h3>
+              <p>+1 (555) 123-4567</p>
+              <p>Mon-Fri: 9:00 AM - 6:00 PM</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <i class="ri-mail-line"></i>
+            <div>
+              <h3>Email Us</h3>
+              <p>info@dantephotos.com</p>
+              <p>bookings@dantephotos.com</p>
+            </div>
+          </div>
+
+          <div class="business-hours">
+            <h3>Business Hours</h3>
+            <div class="hours-grid">
+              <span>Monday - Friday:</span>
+              <span>9:00 AM - 6:00 PM</span>
+              <span>Saturday:</span>
+              <span>10:00 AM - 4:00 PM</span>
+              <span>Sunday:</span>
+              <span>Closed</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Interest</label>
+              <select id="service" name="service" required>
+                <option value="">Select a Service</option>
+                <option value="wedding">Wedding Photography</option>
+                <option value="event">Event Coverage</option>
+                <option value="portrait">Portrait Session</option>
+                <option value="commercial">Commercial Photography</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </section>
+      </div>
+
+      <section class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1191%3A0x49f75d3281df052a!2s150%20Park%20Row%2C%20New%20York%2C%20NY%2010007%2C%20USA!5e0!3m2!1sen!2s!4v1624988445228!5m2!1sen!2s"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Dante Photographs</h3>
+          <img
+            class="footer-logo"
+            src="../images/logo.png"
+            alt="Dante Photographs Logo"
+          />
+          <p>
+            Capturing life's precious moments with artistic vision and
+            professional excellence.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul>
+            <li>Wedding Photography</li>
+            <li>Event Coverage</li>
+            <li>Portrait Sessions</li>
+            <li>Nature & Landscape</li>
+            <li>Studio Photography</li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <ul class="contact-info">
+            <li>
+              <i class="ri-map-pin-line"></i> 123 Photography Street, City
+            </li>
+            <li><i class="ri-phone-line"></i> +1 (555) 123-4567</li>
+            <li><i class="ri-mail-line"></i> info@dantephotos.com</li>
+          </ul>
+          <div class="social-links">
+            <a href="#"><i class="ri-facebook-circle-line"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-x-line"></i></a>
+            <a href="#"><i class="ri-linkedin-box-line"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Dante Photographs. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
